@@ -13,7 +13,7 @@
 3. Open `http://localhost:3000/` in your web browser.
 
 ## Vercel Link
-to be added
+[Deployment Link](https://hasmire-dev.vercel.app/)
 
 ## Figma Link
 [Figma Design Link](https://www.figma.com/file/BW0k57lm5kuumdxjOqXtVH/portfolio-revamped?type=design&node-id=188%3A50&mode=design&t=k3O9yVLuGvPJlstY-1)
