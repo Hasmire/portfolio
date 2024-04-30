@@ -10,10 +10,12 @@
     "next/core-web-vitals",
     "airbnb",
     "airbnb-typescript",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["simple-import-sort", "import"],
+  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "unused-imports"],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
