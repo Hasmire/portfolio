@@ -22,6 +22,7 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
+    "tailwindcss/no-custom-classname": "off",
     "prettier/prettier": [
       "error",
       {

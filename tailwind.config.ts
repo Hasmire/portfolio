@@ -22,6 +22,8 @@ const config = {
     },
     extend: {
       colors: {
+        bg: '#daf5f0',
+        main: '#c4a1ff',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
@@ -202,6 +204,7 @@ const config = {
         },
       },
       borderRadius: {
+        base: '5px',
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
@@ -225,7 +228,16 @@ const config = {
         Space_Grotesk: ['Space Grotesk', ...fontFamily.sans],
       },
       boxShadow: {
+        base: '4px 4px 0px 0px rgba(0,0,0,1)',
         neoBrutalism: '4px 4px 0px 0px rgba(0,0,0,1)',
+      },
+      translate: {
+        boxShadowX: '4px',
+        boxShadowY: '4px',
+      },
+      fontWeight: {
+        base: '500',
+        heading: '700',
       },
     },
   },
