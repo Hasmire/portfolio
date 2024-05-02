@@ -15,7 +15,7 @@
     "plugin:tailwindcss/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": ["@typescript-eslint", "simple-import-sort", "import", "unused-imports"],
+  "plugins": ["@typescript-eslint", "simple-import-sort"],
   "rules": {
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",

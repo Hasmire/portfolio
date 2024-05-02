@@ -75,4 +75,9 @@
   body {
     @apply bg-background text-foreground;
   }
+  .text-shadow-neo {
+    text-shadow: 4px 4px #0f172a;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #0f172a;
+  }
 }
