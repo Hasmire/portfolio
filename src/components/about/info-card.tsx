@@ -4,6 +4,8 @@ import Image from 'next/image'
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
+import { H3, P } from '../ui/typography'
+
 type InfoCardProps = {
   title: string
   description: string
@@ -30,8 +32,8 @@ export default function InfoCard(props: InfoCardProps) {
   return (
     <div className={infoCardClass}>
       <div className={infoTextContainerClass}>
-        <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">{title}</h3>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">{description}</p>
+        <H3>{title}</H3>
+        <P>{description}</P>
       </div>
       <Image className={imageClass} src={imageSrc} alt={imageAlt} width={300} height={300} />
     </div>
