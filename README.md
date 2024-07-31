@@ -12,6 +12,20 @@
 2. Run `npm run dev` to start the local development server.
 3. Open `http://localhost:3000/` in your web browser.
 
+## Progress
+- [x] Hero Section
+- [x] Navbar
+- [x] About Me
+- [ ] Banner
+- [ ] Skills
+- [ ] Experiences
+- [ ] Projects
+- [ ] Contact
+- [ ] Footer
+- [ ] Mobile Responsiveness
+- [ ] Polishing
+- [ ] Animation
+
 ## Vercel Link
 [Deployment Link](https://hasmire-dev.vercel.app/)
 
