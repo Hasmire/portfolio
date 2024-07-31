@@ -3,8 +3,8 @@
 import React from 'react'
 import { twMerge } from 'tailwind-merge'
 
-import Hamburger from './Hamburger'
-import { Button } from './ui/button'
+import { Button } from '../ui/button'
+import Hamburger from './hamburger'
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = React.useState(false)
